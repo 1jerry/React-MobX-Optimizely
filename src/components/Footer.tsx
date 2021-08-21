@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Footer({ remaining, total }) {
   return (
-    <p>
+    <p data-testid="footer">
       {remaining} / {total} left
     </p>
   )
